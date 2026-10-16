@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "td01-nao-app",
-    "slug": "td01-nao-app",
+    "name": "tp01-nao-app",
+    "slug": "tp01-nao-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",

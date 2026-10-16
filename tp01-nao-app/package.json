@@ -1,5 +1,5 @@
 {
-  "name": "td01-nao-app",
+  "name": "tp01-nao-app",
   "main": "expo-router/entry",
   "version": "1.0.0",
   "dependencies": {

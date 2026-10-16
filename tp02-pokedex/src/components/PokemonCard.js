@@ -9,7 +9,9 @@ export default function PokemonCard({ name, number, type, image }) {
       <View style={styles.data}>
         <Text style={styles.number}>{`#${number}`}</Text>
         <Text style={styles.name}>{name}</Text>
-        <TypeBadge label={type} />
+        <View style={styles.tagRow}>
+          <TypeBadge label={type} />
+        </View>
       </View>
     </View>
   );
@@ -30,4 +32,7 @@ const styles = StyleSheet.create({
   image: { width: 60, height: 60, borderRadius: 100 },
   number: { fontSize: 12, fontWeight: "light" },
   name: { fontSize: 16, fontWeight: "bold" },
+  tagRow: {
+    flexDirection: "row",
+  },
 });
